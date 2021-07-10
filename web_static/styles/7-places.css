@@ -1,0 +1,28 @@
+.places {
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    /* do the visual efect of put
+    one element after other element in
+    multiple lines */
+    flex-wrap: wrap;
+}
+
+.places h1 {
+    font-size: 30px;
+    width: 100%;
+}
+
+.places article{
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid  #FF5A5F;
+    border-radius: 4px;
+}
+
+.places article h2 {
+    font-size: 30px;
+    text-align: center;
+}
