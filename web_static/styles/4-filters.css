@@ -9,7 +9,7 @@
     /* center to the section */
     align-items: center;
     /* move button to the right */
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 section.filters button {
@@ -20,6 +20,7 @@ section.filters button {
     width: 20%;
     border-style: none;
     border-radius: 4px;
+    margin-left: auto;
     margin-right: 30px;
 }
 

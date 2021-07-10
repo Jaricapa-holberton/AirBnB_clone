@@ -22,6 +22,7 @@ section.filters button {
     border-radius: 4px;
     margin-left: auto;
     margin-right: 30px;
+    opacity: 1;
 }
 
 section.filters button:hover {
@@ -55,4 +56,36 @@ section.filters button:hover {
     margin: 0;
     margin-bottom: 15px;
     margin-left: 50px
+}
+
+/* hide the bulletpoints */
+.locations ul, .amenities ul {
+    list-style: none;
+}
+
+/* set the hover frame */
+.popover {
+    padding:0;
+    margin:0;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: none;
+    background-color: #FAFAFA;
+    position: relative;
+    bottom:-4px;
+    z-index: 1;
+}
+
+.popover li {
+    margin: 20px
+}
+
+/* make the list hover under the cursor */
+div.locations:hover > .popover{
+    display: block;
+}
+
+div.amenities:hover > .popover{
+    display: block;
 }
