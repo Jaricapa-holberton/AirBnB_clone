@@ -73,6 +73,7 @@ section.filters button:hover {
     display: none;
     background-color: #FAFAFA;
     position: relative;
+    /* make appear under the filter */
     bottom:-4px;
     z-index: 1;
 }
@@ -82,6 +83,10 @@ section.filters button:hover {
 }
 
 /* make the list hover under the cursor */
+/* > is for pseudoselectors,
+ is used to asing from the ancestor the properties
+ to only the specifics desendents */
+
 div.locations:hover > .popover{
     display: block;
 }
